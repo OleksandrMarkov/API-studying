@@ -1,0 +1,84 @@
+{
+	"id": "5c63f361-1702-4c2d-9743-383884b4521b",
+	"name": "Test SWAPI",
+	"timestamp": "2022-06-10T16:38:40.848Z",
+	"collection_id": "17621038-2bfc2eb5-635e-4cad-a474-de722f434022",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0ff5e4f9-04c5-4efd-b468-33819fb96ae3",
+			"name": "SWAPI Starships",
+			"url": "https://swapi.dev/api/starships/",
+			"time": 254,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				254
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2494a4fd-a8b3-4665-bd2b-2ae3aa040b51",
+			"name": "SWAPI Films",
+			"url": "https://swapi.dev/api/films/",
+			"time": 203,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				203
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "59ba140e-c41f-43e4-9e72-ce77a4f1a9c1",
+			"name": "SWAPI People",
+			"url": "https://swapi.dev/api//people/?search=Leia%20Organa",
+			"time": 189,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				189
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 646,
+	"collection": {
+		"requests": [
+			{
+				"id": "0ff5e4f9-04c5-4efd-b468-33819fb96ae3",
+				"method": "GET"
+			},
+			{
+				"id": "2494a4fd-a8b3-4665-bd2b-2ae3aa040b51",
+				"method": "GET"
+			},
+			{
+				"id": "59ba140e-c41f-43e4-9e72-ce77a4f1a9c1",
+				"method": "GET"
+			}
+		]
+	}
+}
