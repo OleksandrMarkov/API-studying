@@ -1,0 +1,147 @@
+{
+	"id": "a28af59a-33c5-46ba-8cea-3973e6fd4268",
+	"name": "Test SWAPI",
+	"timestamp": "2022-06-10T17:00:45.996Z",
+	"collection_id": "17621038-2bfc2eb5-635e-4cad-a474-de722f434022",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 5,
+	"totalFail": 4,
+	"results": [
+		{
+			"id": "0ff5e4f9-04c5-4efd-b468-33819fb96ae3",
+			"name": "SWAPI Starships",
+			"url": "https://swapi.dev/api/starships/",
+			"time": 272,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code is 400?": false,
+				"Response time is less than 200ms": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400?": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				272
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code is 400?": false,
+					"Response time is less than 200ms": false
+				}
+			]
+		},
+		{
+			"id": "2494a4fd-a8b3-4665-bd2b-2ae3aa040b51",
+			"name": "SWAPI Films",
+			"url": "https://swapi.dev/api/films/",
+			"time": 196,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code is 400?": false,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400?": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				196
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code is 400?": false,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "59ba140e-c41f-43e4-9e72-ce77a4f1a9c1",
+			"name": "SWAPI People",
+			"url": "https://swapi.dev/api//people/?search=Leia%20Organa",
+			"time": 65,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code is 400?": false,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400?": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				65
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code is 400?": false,
+					"Response time is less than 200ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 533,
+	"collection": {
+		"requests": [
+			{
+				"id": "0ff5e4f9-04c5-4efd-b468-33819fb96ae3",
+				"method": "GET"
+			},
+			{
+				"id": "2494a4fd-a8b3-4665-bd2b-2ae3aa040b51",
+				"method": "GET"
+			},
+			{
+				"id": "59ba140e-c41f-43e4-9e72-ce77a4f1a9c1",
+				"method": "GET"
+			}
+		]
+	}
+}
